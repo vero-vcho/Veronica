@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<h1><center>Help these Children</h1></center>
+<link rel="stylesheet" href="help.css">
+
+	<body>
+		<div class="navbar">
+  <a href="#home"><a href="index.html">Home</a>
+  <a href="#news"><a href="work-cited.html">Work Cited</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#"><a href="social-justice.html">Social Justice</a>
+      <a href="#"><a href="scientific-data.html">Scientific Data</a>
+      <a href="#"><a href="help.html">Help These Children</a>
+    </div>
+  </div> 
+</div>
+		<p>
+		
+		
+	
+	
+	
+	     <br>
+		 
+		<div <div class="slideshowContainer">
+			<img class="mySlides" src="images.copy.jfif" width="500" height="300">
+			<img class="mySlides" src="images.jpg" width="500" height="300">
+			<img class="mySlides" src="enough-copy.jpg" width="500" height="300">
+		</div>
+	
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+
+<br>
+
+	
+	
+	
+	
+	
+	
+	</body>
